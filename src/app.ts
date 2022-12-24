@@ -1,8 +1,8 @@
 const message = 'Hello TypeScript';
 const message2 = 'Tata JavaScript';
 const number = 5378;
-console.log(message, message2, number);
-console.log(language);
+// console.log(message, message2, number);
+// console.log(language);
 
 
 // Primitive Types(string, number, boolean)
@@ -13,3 +13,10 @@ let hisName : string; // ak line e variable declar korle se type bujte pare but 
 
 hisName= "Jamal"; //
 // hisName = 32;
+
+// unionTypes
+let age : string | number | boolean | [] = 12;
+
+age = '34';
+age = true;
+age = [];
