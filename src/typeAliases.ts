@@ -23,5 +23,4 @@ type Add = (num1: number, num2: number, num3?: number) => number
 
 const total = sum(40, 45);
 
-
 console.log(total)
